@@ -13,6 +13,7 @@ reg add HKLM\Software\Microsoft\Windows\Dwm /v ForceEffectMode /d 2 /t REG_DWORD
 ```
 reg add HKCU\Software\Microsoft\Office\16.0\Outlook\Options\Calendar /v ShowLegacySharingUX /t REG_DWORD /d 1
 ```
+[https://support.microsoft.com/en-us/office/user-experience-changes-for-sharing-a-calendar-in-outlook-5978620a-fe6c-422a-93b2-8f80e488fdec]
 
 ### Deleted Items in Shared Mailbox
 
