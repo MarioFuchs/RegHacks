@@ -7,7 +7,7 @@
 reg add HKLM\Software\Microsoft\Windows\Dwm /v ForceEffectMode /d 2 /t REG_DWORD
 ```
 
-## Outlook
+## Outlook 2016, 2019, 2021, 2024, 365 (Classic)
 
 ### Calender Permissions - Legacy UX
 
