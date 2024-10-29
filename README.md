@@ -19,7 +19,7 @@ reg add HKCU\Software\Microsoft\Office\16.0\Outlook\Options\Calendar /v ShowLega
 ### Deleted Items in Shared Mailbox
 
 ```
-reg add HKCU\Software\Microsoft\Office\<x.0>\Outlook\Options\General /v DelegateWastbasketStyle /t REG_DWORD /d 4|8
+reg add HKCU\Software\Microsoft\Office\16.0\Outlook\Options\General /v DelegateWastbasketStyle /t REG_DWORD /d 4|8
 ```
 4...Stores deleted items in the mailbox owners folder
 
@@ -30,7 +30,7 @@ reg add HKCU\Software\Microsoft\Office\<x.0>\Outlook\Options\General /v Delegate
 ### Sent Items Style Outlook
 
 ```
-reg add HKEY_CURRENT_USER\Software\Microsoft\Office\x.0\Outlook\Preferences /v DelegateSentItemsStyle /t REG_DWORD /d 1
+reg add HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Preferences /v DelegateSentItemsStyle /t REG_DWORD /d 1
 ```
 plus
 ```
