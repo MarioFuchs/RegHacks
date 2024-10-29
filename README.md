@@ -21,9 +21,8 @@ reg add HKCU\Software\Microsoft\Office\16.0\Outlook\Options\Calendar /v ShowLega
 ```
 reg add HKCU\Software\Microsoft\Office\16.0\Outlook\Options\General /v DelegateWastbasketStyle /t REG_DWORD /d 4|8
 ```
-4...Stores deleted items in the mailbox owners folder
-
-8...Stores deleted items in your folder
+- 4...Stores deleted items in the mailbox owners folder
+- 8...Stores deleted items in your folder
 
 [https://learn.microsoft.com/en-us/outlook/troubleshoot/email-management/deleted-items-go-to-wrong-folder]
 
